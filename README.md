@@ -66,3 +66,10 @@ To assess sensitivity to initialization, the selected neural-network architectur
 
 An important observation was that validation performance did not perfectly predict the final Kaggle ranking. In particular, Random Forest and XGBoost performed similarly during validation, while Random Forest achieved the better Kaggle score on the hidden test set.
 
+## Data and Kaggle Execution
+
+The dataset is not included in this repository.
+
+To run the notebook, download the Titanic dataset from Kaggle and run the notebook in the Kaggle environment with the required dataset attached as an input.
+
+The notebook uses Kaggle's input environment to access the data.
